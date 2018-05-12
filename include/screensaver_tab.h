@@ -10,12 +10,12 @@
 
 #include "screensaver.h"
 
-// screensavers
-#define NB_SCREENSAVER 2
 typedef void (*screensaver_t)(sfRenderWindow *window);
+
 static screensaver_t screensaver[NB_SCREENSAVER] = {
 	my_rect,
-	my_line
+	my_line,
+	multiplication_table
 };
 
 #endif

@@ -12,6 +12,6 @@ void evt_close(sfEvent *event, sfRenderWindow *window)
 	if (event->type == sfEvtClosed)
 		sfRenderWindow_close(window);
 	if (event->type == sfEvtKeyPressed)
-		if (sfKeyboard_isKeyPressed(sfKeyEscape))
+		if (event->key.code == sfKeyEscape)
 			sfRenderWindow_close(window);
 }

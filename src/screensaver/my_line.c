@@ -78,7 +78,7 @@ void my_line(sfRenderWindow *window)
 	sfVertexArray *l = sfVertexArray_create();
 
 	start(tab, angle, speed);
-	sfVertexArray_setPrimitiveType(l, sfLinesStrip);
+	sfVertexArray_setPrimitiveType(l, sfLines);
 	move(window, tab, angle, speed);
 	for (size_t i = 0; i < NB_POINT; i++)
 		for (size_t j = i + 1; j < NB_POINT; j++) {

@@ -19,6 +19,7 @@ SRC	=	$(SRCDIR)main.c \
 		$(SRCDIR)evt_key_pressed.c \
 		$(SSDIR)my_rect.c \
 		$(SSDIR)my_line.c \
+		$(SSDIR)multiplication_table.c \
 
 OBJ	=	$(SRC:.c=.o)
 

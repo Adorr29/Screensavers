@@ -15,9 +15,13 @@
 #define WINDOW_BITS_PER_PIXEL 32
 #define WINDOW_PARAMS sfFullscreen
 #define FRAMERATE_LIMIT 30
+#define WINDOW_NAME "Screensaver"
+
+// macro_file
+#define FONT_FILE "resources/font/Minecraftia.ttf"
 
 int menu(void);
-int game(sfRenderWindow *window);
+int game(sfRenderWindow *window, size_t screensaver_num);
 void evt_close(sfEvent *event, sfRenderWindow *window);
 void evt_key_pressed(sfEvent *event, size_t *num, size_t num_max);
 
