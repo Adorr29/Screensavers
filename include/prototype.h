@@ -15,7 +15,7 @@
 #define WINDOW_BITS_PER_PIXEL 32
 #define WINDOW_PARAMS sfFullscreen
 #define FRAMERATE_LIMIT 30
-#define WINDOW_NAME "Screensaver"
+#define WINDOW_NAME "Screensavers"
 
 // macro_file
 #define FONT_FILE "resources/font/Minecraftia.ttf"
