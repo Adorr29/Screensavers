@@ -26,7 +26,9 @@ OBJ	=	$(SRC:.c=.o)
 CFLAGS	+=	-I./include
 CFLAGS	+=	-W -Wall -Wextra
 
-LDFLAGS	+=	-l c_graph_prog
+LDFLAGS	+=	-l csfml-system
+LDFLAGS	+=	-l csfml-window
+LDFLAGS	+=	-l csfml-graphics
 LDFLAGS	+=	-l m
 
 all	:	$(NAME)
